@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placements</title>
+    <script src="https://kit.fontawesome.com/f4658b3025.js" crossorigin="anonymous"></script>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.header{
+    height: 10rem;
+    width: 150rem;
+    display: flex;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+.header i{
+    display: none;
+}
+main{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    box-shadow: .5rem 0px .5rem .5rem rgba(0,0,0,0.2);
+    width: 150rem;
+    border-radius: 1rem;
+}
+.names{
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.names #dept {
+    font-weight: 500;
+    font-size: 3rem;
+    color:darkblue;
+    margin-bottom: 0.5rem;
+}
+.names #nitk{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.links{
+    background-color: rgb(45, 172, 223);
+    height: 4rem;
+    width: 150rem;
+    padding: .7rem;
+    padding-left: 2.5rem;
+}
+.links .fa{
+    display: none;
+}
+.links a{
+    padding:1rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    margin: 1.3rem;
+}
+.links a:hover{
+    color:lawngreen;
+}
+.image-about .head{
+    height: 4rem;
+    width: 100%;
+    background: rgb(45, 172, 223);
+    color: white;
+}
+.image-about{
+    height: 99rem;
+}
+.head h1{
+    padding: 1rem;
+}
+.bm{
+    height: 200rem;
+}
+.bm .image-about{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 10px 10px 2px 10px;
+}
+.table{
+    text-align: center;
+    margin: 3rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid gray;
+  }
+  thead{
+    height: 2rem;
+  }
+  th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem
+  }
+  td a{
+    color: gray;
+    cursor: pointer;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .image{
+    text-align: center;
+    margin: 2rem;
+  }
+footer .foot-paths{
+    border-top: .5rem solid orange;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(45, 172, 223);
+    margin: 0 21.5rem 0rem 20rem;
+    box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+.foot-paths ul{
+    list-style: none;
+}
+.foot-paths li{
+    display: flex;
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+li i{
+    margin-right: 1rem;
+    color: #fff;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+.foot-paths .first{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 40rem;
+}
+.first #social a{
+    position: relative;
+    margin-right: 2rem;
+}
+.foot-paths .second {
+    margin-top: 5rem;
+    margin-right: 20rem;
+}
+.foot-paths .second li{
+    margin-bottom: 2rem;
+}
+.foot-paths .third{
+    margin-top: 2rem;
+    margin-right:15rem;
+    font-weight: 500;
+}
+footer .copyright{
+    font-weight: bold;
+    height: 5rem;
+    background:rgb(44, 180, 238) ;
+    margin: 0rem 21.5rem 0rem 20rem;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    border-radius: 1rem;
+}
+.copyright p{
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+@media (max-width:480px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto; 
+      }
+    main{
+        flex-direction: column;
+        margin-left: 0rem;
+        max-height: 300vh;
+        max-width: 100%;
+        margin: 0;
+    }
+    .header i{
+        display: flex;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+    .page1{
+        height: 265rem;
+        max-width: 41rem;
+    }
+    .names #dept{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .names #nitk{
+        font-size: 1.5rem;
+    }
+    .navbar-toggle {
+        display: flex;
+    }
+    .links{
+        display: none;
+        position:absolute;
+        flex-direction: column;
+        background:rgb(45, 172, 223) ;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -200;
+        text-align: left;
+        z-index: 2;
+    }
+    .links.active{
+        display: flex;
+        right:0;
+    }
+    .links a{
+        display: block;
+    }
+    .links .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .links a:hover{
+        color:lawngreen;
+    }
+    .header{
+        margin-left: 1rem;
+    }
+    .itbuid{
+        display: none;
+    }
+    .head h1{
+        font-size: 1.7rem;
+    }
+    .table{
+        margin: 0.5rem;
+    }
+    table{
+        width: 90%;
+    }
+    th,td{
+        font-size: 1.5rem;
+    }
+    .image img{
+        width: 38rem;
+        margin-left: 0rem;
+    }
+    .bm .image-about{
+        width: 100%;
+        height: 66rem;
+        margin-left: 0rem;
+    }
+    .bm{
+        height: 130rem;
+    }
+    footer .foot-paths{
+        border-top: .5rem solid orange;
+        display: inline-block;
+        height: 70rem;
+        box-shadow: none;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .foot-paths li{
+        display: block;
+    }
+    .foot-paths .first{
+       text-align: center;
+       margin: 1rem;
+    }
+    .foot-paths .second{
+        text-align: center;
+        margin: 1rem;
+    }
+    .foot-paths .third{
+        text-align: center;
+        margin: 1rem;
+    }
+   
+    .third p{
+        font-weight: bold;
+    }
+    footer .copyright{
+        margin-left: 0rem;
+        height: 7rem;
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="https://www.nitk.ac.in/" ><img src="/pdf/logo.jpg" alt="nitk logo" height="70" width="70" ></a> 
+            </div>
+            <div class="names">
+            <p id="dept">Information Technology</p>
+                <p id="nitk">National Institute of Techmology Karnataka</p>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+    </header>
+    <main>
+        <div class="links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <a href="home.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="#">Curriculum</a>
+            <a href="#">People</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="#">Research/Consultancy</a>
+            <a href="placements.html">Placements</a>
+            <a href="#">Achievements</a>
+            <a href="#">Events</a>
+            <a href="contact.html">Contact</a>  
+        </div>
+       <div class="bm">
+        <div class="image-about">
+            <div class="head">
+                <h1 id="heading"> Campus Placement Statistics for B.Tech (IT) </h1>
+            </div>
+            <div class="table">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Placement Year</th>
+                    <th>Eligible</th>
+                    <th>Placed</th>
+                    <th>Highest Pay </th>
+                    <th>Average Pay  </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2021-22 </td>
+                    <td>105</td>
+                    <td>105</td>
+                    <td>54.75 lakhs</td>
+                    <td>29.23 Lakhs</td>
+                  </tr>
+                  <tr>
+                    <td>2020-21</td>
+                    <td>95</td>
+                    <td>93+2*</td>
+                    <td>45.03 lakhs</td>
+                    <td>17.28 lakhs</td>
+                  </tr>
+                  <tr>
+                    <td>2019-20</td>
+                    <td>97</td>
+                    <td>96+1*</td>
+                    <td>43 lakhs</td>
+                    <td>17.06 lakhs</td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2018-19</td>
+                    <td>93</td>
+                    <td>92+1*</td>
+                    <td>39 lakhs</td>
+                    <td>14.15 lakhs</td>
+                  </tr>
+                  <tr>
+                    <td>2017-18</td>
+                    <td>97</td>
+                    <td>96+1*</td>
+                    <td>31 lakhs</td>
+                    <td>13.85 lakhs</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="image">
+                <img src="/pdf/placebtech.png">
+            </div>
+            </div>
+            <div class="image-about">
+                <div class="head">
+                    <h1 id="heading"> Campus Placement Statistics for M.Tech (IT)</h1>
+                </div>
+                <div class="table">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Placement Year</th>
+                        <th>Eligible</th>
+                        <th>Placed</th>
+                        <th>Highest Pay </th>
+                        <th>Average Pay  </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2021-22 </td>
+                        <td>29</td>
+                        <td>28+1*</td>
+                        <td>43.03 lakhs</td>
+                        <td>17.38 Lakhs</td>
+                      </tr>
+                      <tr>
+                        <td>2020-21</td>
+                        <td>26</td>
+                        <td>24+2*</td>
+                        <td>28 lakhs</td>
+                        <td>12.25 lakhs</td>
+                      </tr>
+                      <tr>
+                        <td>2019-20</td>
+                        <td>22</td>
+                        <td>22</td>
+                        <td>20 lakhs</td>
+                        <td>12 lakhs</td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2018-19</td>
+                        <td>19</td>
+                        <td>19</td>
+                        <td>18.75 lakhs</td>
+                        <td>11.90 lakhs</td>
+                      </tr>
+                      <tr>
+                        <td>2017-18</td>
+                        <td>16</td>
+                        <td>16</td>
+                        <td>18 lakhs</td>
+                        <td>11.63 lakhs</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="image">
+                    <img src="/pdf/placemtech.png">
+                </div>
+                </div>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="foot-paths">
+            <div class="first">
+                <ul>
+                <li><i class="fa-sharp fa-solid fa-location-dot"></i><p>  NH 66, Srinivasnagar
+                    Surathkal, Mangalore
+                    Karnataka 575025</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:hodit@nitk.edu.in" target="_blank">hodit@nitk.edu.in</a>
+                </li>
+                    <li><i class="fa-sharp fa-solid fa-phone"></i>
+                        <p>+91-824-2474056</p></li>
+                        <li id="social">
+                           
+                            <a href="https://twitter.com/surathkal_nitk"><i class="fa-brands fa-square-twitter fa-lg"></i></a>  
+                            
+                            <a href="https://www.facebook.com/nitkarnatakaOfficial"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
+
+                            <a href="https://www.linkedin.com/school/nitk-surathkal/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="second">
+                <li><a href="index.html">home</a></li>
+                <li><a href="https://www.nitk.ac.in/about_us">About NITK</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+            <div class="third">
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-location-dot"></i><p>LOCATION</p>
+                        </li>
+                        <li><a href="https://maps.app.goo.gl/hx2USKQgyrEFJ5jp9"><img src="/pdf/nitk-map.jpg" alt="nitk map" height="200rem" width="300rem"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 HOD IT Department | Designed by Kedar Dhule</p>
+        </div>
+    </footer>
+    <script>
+        function showMenu(){
+        const navLinks = document.querySelector('.links');
+        navLinks.classList.toggle('active');
+        }
+        function hideMenu(){
+            const navLinks = document.querySelector('.links');
+            navLinks.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
