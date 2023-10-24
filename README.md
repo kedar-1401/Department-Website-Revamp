@@ -70,6 +70,18 @@ Main aspects that include to customize the website to bring a fresh makeover for
  I deployed my website with [Google Firebase](https://firebase.google.com/docs?gad=1&gclid=CjwKCAjw1t2pBhAFEiwA_-A-NOelMZ5snJrIlUEQ0ob9MlqcOhRB-Q4Q8KJcCof5S8sHCKgouBtwIBoCkAcQAvD_BwE&gclsrc=aw.ds)
  ,Follow the instructions in their docs to do so.
 
- 
+## References 
+
+   - [NITK IT Department](https://infotech.nitk.ac.in/)
+   - [How To Plan A Website Redesign](https://www.altexsoft.com/blog/uxdesign/how-to-plan-a-website-redesign-stages-approaches-principles/)
+   - [Font Awesome](https://fontawesome.com/)
+   - [smtpjs](https://smtpjs.com/)
+   - [Google Firebase](https://firebase.google.com/docs?gad=1&gclid=CjwKCAjw1t2pBhAFEiwA_-A-NOelMZ5snJrIlUEQ0ob9MlqcOhRB-Q4Q8KJcCof5S8sHCKgouBtwIBoCkAcQAvD_BwE&gclsrc=aw.ds)
+   - [Visme](https://www.visme.co/graph-maker/)
+
+## Illustrations 🖼️
+   - [Google Firebase Website Hosting](https://www.youtube.com/watch?v=w7xKZ5PWizs) By Sameer Saini
+   - [Media Query](https://www.youtube.com/watch?v=WTz4A8IdeEQ&t=320s) By CodeWithHarry 
+
   
   
