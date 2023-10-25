@@ -1,5 +1,5 @@
 ## Department-Website-Revamp 
-![1](https://github.com/kedar-1401/Department-Website-Revamp/assets/127956319/f1b10829-d0e3-4987-970e-cfea6084f96b)
+![1](https://github.com/kedar-1401/Department-Website-Revamp/assets/127956319/77343d05-a008-4fc8-ae09-d5a240f8d79e)
 
 ## Deployment Link: https://itdepartmentkedar-84af9.web.app/ 
 
