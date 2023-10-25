@@ -25,6 +25,7 @@ git clone https://github.com/kedar-1401/Department-Website-Revamp.git
 - [Facilities](https://itdepartmentkedar-84af9.web.app/facilities.html)
 - [Placements](https://itdepartmentkedar-84af9.web.app/placements.html)
 - [Contact](https://itdepartmentkedar-84af9.web.app/contact.html)
+- Both Mobile and Desktop Responsive view 
 
 ## Fresh Makeover ✨
 Main aspects that include to customize the website to bring a fresh makeover for NITK IT Department Website
