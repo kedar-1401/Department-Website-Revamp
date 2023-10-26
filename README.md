@@ -1,7 +1,9 @@
 ## Department-Website-Revamp 
-![1](https://github.com/kedar-1401/Department-Website-Revamp/assets/127956319/77343d05-a008-4fc8-ae09-d5a240f8d79e)
+
+![1](https://github.com/kedar-1401/Department-Website-Revamp/assets/127956319/a93e3873-1699-4c40-8630-ff14b3bd86e0)
 
 ## Deployment Link: https://itdepartmentkedar-84af9.web.app/ 
+
 
 ## Demonstration Video : https://drive.google.com/drive/folders/180FxZE7yHoG_LKWdhbTZi6DcyVXa1ZJg?usp=drive_link
 ## 🛠 Skills
