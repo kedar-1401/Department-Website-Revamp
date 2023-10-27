@@ -8,7 +8,7 @@
 ## Demonstration Video : https://drive.google.com/drive/folders/180FxZE7yHoG_LKWdhbTZi6DcyVXa1ZJg?usp=drive_link
 
 ## Description:
-This is a website revamp project for the IT department of a company. The main purpose of this project was to create an interactive and visually application.
+This is a website revamp project for the IT department of National Institute of Technology Karnataka . The main purpose of this project was to create an interactive and visually application and give a fresh makeover to IT department Website.
 
 
 ## 🛠 Skills
