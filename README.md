@@ -6,6 +6,11 @@
 
 
 ## Demonstration Video : https://drive.google.com/drive/folders/180FxZE7yHoG_LKWdhbTZi6DcyVXa1ZJg?usp=drive_link
+
+## Description:
+This is a website revamp project for the IT department of a company. The main purpose of this project was to create an interactive and visually application.
+
+
 ## 🛠 Skills
 Javascript, HTML, CSS...
 
